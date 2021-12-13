@@ -7,5 +7,5 @@
 
 ## 2. Step
 ```bash
-./create server-stack server.yml server-parameters.json
+./create.sh server-stack server.yml server-parameters.json
 ```
