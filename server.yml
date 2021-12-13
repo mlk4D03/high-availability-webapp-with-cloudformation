@@ -55,7 +55,7 @@ Resources:
           apt-get install apache2 -y
           systemctl start apache2.service
           cd /var/www/html
-          echo "Udacity Demo Web Server Up and Running!" > index.html
+          echo "Demo Web Server Up and Running!" > index.html
       ImageId: ami-0279c3b3186e54acd
       SecurityGroups:
         - Ref: WebServerSecGroup
